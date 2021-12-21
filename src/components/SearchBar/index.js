@@ -55,7 +55,7 @@ const SearchBar = ({setSearchTerm}) => {
 //     state = {value : ''};
 //     timeout = null;
 
-//     // Component lifecyle
+//     // lifecyle methods
 //     componentDidUpdate(_prevProps, prevState) {
 //         if (this.state.value !== prevState.value) {
 //             const {setSearchTerm} = this.props;
