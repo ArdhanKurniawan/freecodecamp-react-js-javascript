@@ -2,8 +2,8 @@
 // Read more about the API here: https://developers.themoviedb.org/
 
 const API_URL = 'https://api.themoviedb.org/3/';
-// const API_KEY = process.env.REACT_APP_API_KEY;
-const API_KEY = '5e987a64e3ee2af1420f352b369384ef';
+const API_KEY = process.env.REACT_APP_API_KEY;
+// const API_KEY = '5e987a64e3ee2af1420f352b369384ef';
 
 const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
 const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
